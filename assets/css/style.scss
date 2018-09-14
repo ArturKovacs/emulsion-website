@@ -31,6 +31,9 @@ $hr-border-color: #777;
 
 @import "{{ site.theme }}";
 
+body {
+    background: #f2f2f2;
+}
 
 //header {
 //    background-image: none;
