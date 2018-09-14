@@ -2,3 +2,9 @@ theme: jekyll-theme-cayman
 
 title: "EMULSION"
 description: A fast and minimalistic image viewer.
+
+installer:
+    windows_url: https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe
+
+github:
+    repository_url: https://github.com/ArturKovacs/emulsion
