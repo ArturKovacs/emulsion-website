@@ -33,13 +33,13 @@ Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/dow
 
 ### The Name
 
-The word _emulsion_ in general refers to a substance in which two or more non-soluble liquids are mixed together so that the molecules are finely dispersed. For example mayonnaise is an emulsion of oil, egg yolk, and some accidic ingerdient like vinegar or lemon juice.
+The word _emulsion_ in general refers to a substance in which two or more non-soluble liquids are mixed together so that the molecules are finely dispersed. For example mayonnaise is an emulsion of oil, egg yolk, and some acidic ingredient like vinegar or lemon juice.
 
 Here emulsion refers to _photographic emulsion_ which is a substance that among other things can be used to develop images from.
 
 In this sense emulsion is a thin layer that displays an image.
 
-This description suits the program just as well. Emulsion is extremely lightweight as it is one single executable file acompanied by a few UI elements adding up to a size under 5 MBs.
+This description suits the program just as well. Emulsion is extremely lightweight as it is one single executable file accompanied by a few UI elements adding up to a size under 5 MBs.
 
 ### Usage
 
@@ -60,11 +60,11 @@ This description suits the program just as well. Emulsion is extremely lightweig
 
 ### Contribution Welcome
 
-Feel free to post bug reports, feature requests or even make pull requests on the [GitHub page](https://github.com/ArturKovacs/emulsion). The same goes to the github page of this website which you can find [here](https://github.com/ArturKovacs/emulsion-website).
+Feel free to post bug reports, feature requests or even make pull requests on the [GitHub page](https://github.com/ArturKovacs/emulsion). The same goes to the GitHub page of this website which you can find [here](https://github.com/ArturKovacs/emulsion-website).
 
 --------
 
 #### Third-party Content
 
-The pixel art image, [ice skating robot](https://www.deviantart.com/boberatu/art/Snowbot-Spritesheet-579824187) was created by devianart user "boberatu" and released under the [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+The pixel art image, [ice skating robot](https://www.deviantart.com/boberatu/art/Snowbot-Spritesheet-579824187) was created by devianart user [boberatu](https://www.deviantart.com/boberatu) and released under the [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
 
