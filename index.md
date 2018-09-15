@@ -1,39 +1,70 @@
-## Welcome to GitHub Pages
 
-I'll just commit the template just to see how it works.
+## Fast
 
-You can use the [editor on GitHub](https://github.com/ArturKovacs/emulsion-website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Displays images instantly. So fast it can play back an animation right from an image file sequence.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![anim-playback](gif/base.png)
 
-### Markdown
+## Light and Dark
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Being able to quickly switch between a dark and a light interface may come in handy.
 
-```markdown
-Syntax highlighted code block
+![light-dark](gif/light-dark.gif)
 
-# Header 1
-## Header 2
-### Header 3
+## Cursor Anchored Zoom
 
-- Bulleted
-- List
+Depending on the zoom direction the viewer will move towards/away from the area under the cursor.
 
-1. Numbered
-2. List
+![anchored-zoom](gif/anchored-zoom.gif)
 
-**Bold** and _Italic_ and `Code` text
+## Pixel Art Friendly
 
-[Link](url) and ![Image](src)
-```
+Automatically switches from smooth display to real pixels at a scale threshold.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![pixel-art](gif/pixel-art.gif)
 
-### Jekyll Themes
+## Takes Seconds to Get It Going
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ArturKovacs/emulsion-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the repository and let `cargo` do its magic.
 
-### Support or Contact
+![download-install](https://octodex.github.com/images/yaktocat.png)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+--------
+
+### The Name
+
+The word _emulsion_ in general refers to a substance in which two or more non-soluble liquids are mixed together so that the molecules are finely dispersed. For example mayonnaise is an emulsion of oil, egg yolk, and some accidic ingerdient like vinegar or lemon juice.
+
+Here emulsion refers to _photographic emulsion_ which is a substance that among other things can be used to develop images from.
+
+In this sense emulsion is a thin layer that displays an image.
+
+This description suits the program just as well. Emulsion is extremely lightweight as it is one single executable file acompanied by a few UI elements adding up to a size under 5 MBs.
+
+### Usage
+
+| Command                               | Input               |
+| ------------------------------------- | ------------------- |
+| Quit Emulsion                         | Esc                 |
+| Previous Image                        | A or Left Arrow     |
+| Next Image                            | D or Right Arrow    |
+| Zoom In                               | Mouse Wheel Up      |
+| Zoom Out                              | Mouse Wheel Down    |
+| Fit Image To Window                   | F                   |
+| Show At Original Scale                | Q                   |
+| Toggle Animation Playback             | Space               |
+| Toggle Presentation Playback          | P                   |
+| Toggle Shuffled Presentation Playback | Ctrl + P            |
+| Pan Camera                            | Left Click And Drag |
+
+
+### Contribution Welcome
+
+Feel free to post bug reports, feature requests or even make pull requests on the [GitHub page](https://github.com/ArturKovacs/emulsion). The same goes to the github page of this website which you can find [here](https://github.com/ArturKovacs/emulsion-website).
+
+--------
+
+#### Third-party Content
+
+The pixel art image, [ice skating robot](https://www.deviantart.com/boberatu/art/Snowbot-Spritesheet-579824187) was created by devianart user "boberatu" and released under the [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/).
+
