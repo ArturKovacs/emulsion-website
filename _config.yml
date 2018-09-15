@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 
 title: EMULSION
-description: An image viewer for those who have an image editor.
+description: A lightweight and minimalistic image viewer.
 logo: emulsion.svg
 
 installer:
