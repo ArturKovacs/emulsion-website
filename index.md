@@ -28,7 +28,7 @@ Automatically switches from smooth display to real pixels at a scale threshold.
 
 ## Takes Seconds to Get It Going
 
-Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the repository and let `cargo` do its magic.
+Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
 
 ![download-install](gif/base.png)
 
@@ -61,7 +61,7 @@ This description suits the program just as well. Emulsion is a thin layer betwee
 | Pan Camera                            | Left Click And Drag |
 
 
-### Contribution Welcome
+### Contribution is Welcome
 
 Feel free to post bug reports, feature requests or even make pull requests on the [GitHub page](https://github.com/ArturKovacs/emulsion). The same goes to the GitHub page of this website which you can find [here](https://github.com/ArturKovacs/emulsion-website).
 
