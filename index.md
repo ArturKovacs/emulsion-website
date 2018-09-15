@@ -27,7 +27,7 @@ Automatically switches from smooth display to real pixels at a scale threshold.
 
 Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the repository and let `cargo` do its magic.
 
-![download-install](https://octodex.github.com/images/yaktocat.png)
+![download-install](gif/base.png)
 
 --------
 
