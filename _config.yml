@@ -1,7 +1,8 @@
 theme: jekyll-theme-cayman
 
-title: "EMULSION"
+title: EMULSION
 description: An image viewer for those who have an image editor.
+logo: emulsion.svg
 
 installer:
     windows_url: https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe
