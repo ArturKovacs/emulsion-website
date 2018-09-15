@@ -30,7 +30,7 @@ Automatically switches from smooth display to real pixels at a scale threshold.
 
 Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
 
-![download-install](gif/install-placeholder.png)
+![download-install](gif/install.gif)
 
 --------
 
