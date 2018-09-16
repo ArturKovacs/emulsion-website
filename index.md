@@ -6,31 +6,41 @@ title: ""
 
 Displays images instantly. So fast it can play back an animation right from an image file sequence.
 
-![anim-playback](gif/base.png)
+<p align="center">
+  <img src="gif/gif/base.png">
+</p>
 
 ## Light and Dark
 
 Being able to quickly switch between a dark and a light interface may come in handy.
 
-![light-dark](gif/light-dark.gif)
+<p align="center">
+  <img src="gif/light-dark.gif">
+</p>
 
 ## Cursor Anchored Zoom
 
 Depending on the zoom direction the viewer will move towards/away from the area under the cursor.
 
-![anchored-zoom](gif/anchored-zoom.gif)
+<p align="center">
+  <img src="gif/anchored-zoom.gif">
+</p>
 
 ## Pixel Art Friendly
 
 Automatically switches from smooth display to real pixels at a scale threshold.
 
-![pixel-art](gif/pixel-art.gif)
+<p align="center">
+  <img src="gif/pixel-art.gif">
+</p>
 
 ## Takes Seconds to Get It Going
 
 Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
 
-![download-install](gif/install.gif)
+<p align="center">
+  <img src="gif/install.gif">
+</p>
 
 --------
 
