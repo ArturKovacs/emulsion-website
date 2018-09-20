@@ -20,7 +20,7 @@ Being able to quickly switch between a dark and a light interface may come in ha
 
 ## Cursor Anchored Zoom
 
-Depending on the zoom direction the viewer will move towards/away from the area under the cursor.
+The viewer will move towards/away from the area under the cursor while zooming.
 
 <p align="center">
   <img src="gif/zoom.gif">
@@ -39,7 +39,7 @@ Automatically switches from smooth display to real pixels at a scale threshold.
 Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
 
 <p align="center">
-  <img src="gif/base.png">
+  <img src="gif/install.gif">
 </p>
 
 --------
