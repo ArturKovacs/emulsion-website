@@ -7,7 +7,7 @@ title: ""
 Displays images instantly. So fast it can play back an animation right from an image file sequence.
 
 <p align="center">
-  <img src="gif/animation.png">
+  <img src="gif/animation.gif">
 </p>
 
 ## Light and Dark
