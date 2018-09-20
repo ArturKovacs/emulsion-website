@@ -7,7 +7,7 @@ title: ""
 Displays images instantly. So fast it can play back an animation right from an image file sequence.
 
 <p align="center">
-  <img src="gif/gif/base.png">
+  <img src="gif/animation.png">
 </p>
 
 ## Light and Dark
@@ -23,7 +23,7 @@ Being able to quickly switch between a dark and a light interface may come in ha
 Depending on the zoom direction the viewer will move towards/away from the area under the cursor.
 
 <p align="center">
-  <img src="gif/anchored-zoom.gif">
+  <img src="gif/zoom.gif">
 </p>
 
 ## Pixel Art Friendly
@@ -39,7 +39,7 @@ Automatically switches from smooth display to real pixels at a scale threshold.
 Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.0/Emulsion-Installer.exe) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
 
 <p align="center">
-  <img src="gif/install.gif">
+  <img src="gif/base.gif">
 </p>
 
 --------
