@@ -35,6 +35,16 @@ body {
     background: #f2f2f2;
 }
 
+.btn-download:hover {
+    background-color: rgba(45, 255, 105, 0.2);
+    border-color: rgba(45, 255, 105, 0.3);
+}
+
+.btn-download {
+    background-color: rgba(45, 255, 105, 0.08);
+    border-color: rgba(45, 255, 105, 0.2);
+}
+
 //header {
 //    background-image: none;
 //    background-color: #212121;
