@@ -5,7 +5,7 @@ description: A lightweight and minimalistic image viewer.
 logo: emulsion.svg
 
 installer:
-    windows_url: https://github.com/ArturKovacs/emulsion/releases/download/v1.1/Emulsion-Installer.exe
+    windows_url: https://github.com/ArturKovacs/emulsion/releases/download/v1.2/Emulsion-Installer.exe
 
 github:
     repository_url: https://github.com/ArturKovacs/emulsion

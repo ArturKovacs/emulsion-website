@@ -36,7 +36,7 @@ Automatically switches from smooth display to real pixels at a scale threshold.
 
 ## Takes Seconds to Get It Going
 
-Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.1/Emulsion-Installer.exe) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
+Get the [Windows installer](https://github.com/ArturKovacs/emulsion/releases/download/v1.2/Emulsion-Installer.exe) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
 
 <p align="center">
   <img src="gif/install.gif">
@@ -61,19 +61,21 @@ JPG, JPEG, PNG, BMP, TGA, WEBP, TIF, TIFF, ICO, HDR, PBM, PAM, PPM, and PGM
 
 Usage:
 
-| Command                               | Input               |
-| ------------------------------------- | ------------------- |
-| Quit Emulsion                         | Esc                 |
-| Previous Image                        | A or Left Arrow     |
-| Next Image                            | D or Right Arrow    |
-| Zoom In                               | Mouse Wheel Up      |
-| Zoom Out                              | Mouse Wheel Down    |
-| Fit Image To Window                   | F                   |
-| Show At Original Scale                | Q                   |
-| Toggle Animation Playback             | Space               |
-| Toggle Presentation Playback          | P                   |
-| Toggle Shuffled Presentation Playback | Ctrl + P            |
-| Pan Camera                            | Left Click And Drag |
+| Command                               | Input                        |
+| ------------------------------------- | ---------------------------- |
+| Quit Emulsion                         | Esc                          |
+| Previous Image                        | A or Left Arrow              |
+| Next Image                            | D or Right Arrow             |
+| Zoom In                               | Mouse Wheel Up               |
+| Zoom Out                              | Mouse Wheel Down             |
+| Fit Image To Window                   | F                            |
+| Show At Original Scale                | Q                            |
+| Toggle Animation Playback             | Alt+A or Alt+V               |
+| Toggle Presentation Playback          | P                            |
+| Toggle Shuffled Presentation Playback | Ctrl + P                     |
+| Pan Camera                            | Middle Mouse Button or Space |
+| Move Window                           | Left Mouse Button            |
+| Toggle Fullscreen Mode                | Double Click                 |
 
 
 ### Contribution is Welcome
