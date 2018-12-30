@@ -17,9 +17,6 @@
                     var asset = release.assets[0];
                     var link = document.getElementById("installer-link");
                     link.href = asset.browser_download_url;
-                    //$(".download").attr("href", asset.browser_download_url);
-                    //$(".release-info").text(releaseInfo);
-                    //$(".release-info").fadeIn("slow");
                 });
             }
         </script>
@@ -36,7 +33,7 @@
         <header class="page-header" role="banner">
             <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
             <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-            <a href="{{ site.installer.windows_url }}" class="btn btn-download" id="installer-link">Download for Windows</a>
+            <a href="https://github.com/ArturKovacs/emulsion/releases/latest" class="btn btn-download" id="installer-link">Download for Windows</a>
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
         </header>
 

@@ -73,7 +73,7 @@ Usage:
 | Toggle Animation Playback             | Alt+A or Alt+V               |
 | Toggle Presentation Playback          | P                            |
 | Toggle Shuffled Presentation Playback | Ctrl + P                     |
-| Pan Camera                            | Middle Mouse Button or Space |
+| Pan Camera                            | Right Mouse Button or Space  |
 | Move Window                           | Left Mouse Button            |
 | Toggle Fullscreen Mode                | Double Click                 |
 
