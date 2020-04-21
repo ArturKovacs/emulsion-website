@@ -52,7 +52,7 @@ Here emulsion refers to _photographic emulsion_ which is a substance that among 
 
 In this sense emulsion is a thin layer that displays an image.
 
-This description suits the program just as well. Emulsion is a thin layer between the operating system and the user as it is one single executable file accompanied by a few UI elements adding up to a size under 6 MBs.
+This description suits the program just as well. Emulsion is a thin layer between the operating system and the user as it is one single executable file accompanied by a few UI elements adding up to a size under 10 MBs.
 
 ### Details
 
