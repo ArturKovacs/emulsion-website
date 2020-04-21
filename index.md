@@ -52,7 +52,7 @@ Here emulsion refers to _photographic emulsion_ which is a substance that among 
 
 In this sense emulsion is a thin layer that displays an image.
 
-This description suits the program just as well. Emulsion is a thin layer between the operating system and the user as it is one single executable file accompanied by a few UI elements adding up to a size under 5 MBs.
+This description suits the program just as well. Emulsion is a thin layer between the operating system and the user as it is one single executable file accompanied by a few UI elements adding up to a size under 6 MBs.
 
 ### Details
 
@@ -79,7 +79,7 @@ Usage:
 
 ### Contribution is Welcome
 
-Feel free to post bug reports, feature requests or even make pull requests on the [GitHub page](https://github.com/ArturKovacs/emulsion). The same goes to the GitHub page of this website which you can find [here](https://github.com/ArturKovacs/emulsion-website).
+Feel free to post bug reports, feature requests or even make pull requests on the [GitHub page](https://github.com/ArturKovacs/emulsion). The same goes for the GitHub page of this website which you can find [here](https://github.com/ArturKovacs/emulsion-website).
 
 --------
 
