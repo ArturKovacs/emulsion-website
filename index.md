@@ -72,9 +72,8 @@ Usage:
 | Show At Original Scale                | Q                            |
 | Toggle Animation Playback             | Alt+A or Alt+V               |
 | Toggle Presentation Playback          | P                            |
-| Toggle Shuffled Presentation Playback | Ctrl + P                     |
+| Toggle Shuffled Presentation Playback | Alt+P                        |
 | Pan Camera                            | Right Mouse Button or Space  |
-| Move Window                           | Left Mouse Button            |
 | Toggle Fullscreen Mode                | Double Click                 |
 
 
