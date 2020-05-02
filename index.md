@@ -57,7 +57,7 @@ This description suits the program just as well. Emulsion is a thin layer betwee
 ### Details
 
 Supported extensions are:<br/>
-JPG, JPEG, PNG, BMP, TGA, WEBP, TIF, TIFF, ICO, HDR, PBM, PAM, PPM, and PGM
+JPG, JPEG, PNG, BMP, GIF, TGA, WEBP, TIF, TIFF, ICO, HDR, PBM, PAM, PPM, and PGM
 
 Usage:
 
@@ -75,6 +75,7 @@ Usage:
 | Toggle Shuffled Presentation Playback | Alt+P                        |
 | Pan Camera                            | Right Mouse Button or Space  |
 | Toggle Fullscreen Mode                | Double Click                 |
+| Move Image to the Trash               | Delete                       |
 
 
 ### Contribution is Welcome
