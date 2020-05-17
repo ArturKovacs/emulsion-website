@@ -40,12 +40,12 @@
                     {% for item in site.data.toc.elements %}
                         <li>
                             {% if item.url %}
-                                <a href="{{ item.url }}">{{ item.title }}</a>
+                                <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                             {% else %}
                                 <a onclick="toggleSubmenu(this)">{{ item.title }} ▼</a>
                                 <ul>
                                     {% for entry in item.subfolderitems %}
-                                        <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+                                        <li><a href="{{ entry.url | relative_url}}">{{ entry.page }}</a></li>
                                     {% endfor %}
                                 </ul>
                             {% endif %}
