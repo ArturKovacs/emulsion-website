@@ -1,0 +1,13 @@
+elements:
+  - title: Overview
+    url: /index.html
+  - title: Download
+    url: /download.html
+  - title: Configuration
+    subfolderitems:
+      - page: Config Overview
+        url: /configuration.html
+      - page: Input Bindings
+        url: /bindings.html
+      - page: Custom Commands
+        url: /custom-commands.html

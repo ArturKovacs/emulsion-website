@@ -31,8 +31,78 @@ $hr-border-color: #777;
 
 @import "{{ site.theme }}";
 
+$nav-bg-color: #3e4d42;
+
 body {
     background: #f2f2f2;
+}
+
+.page-header {
+    color: $header-heading-color;
+    text-align: center;
+    background-color: $header-bg-color;
+    background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+
+    @include large {
+        padding: 2rem 4rem;
+    }
+
+    @include medium {
+        padding: 1.5rem 3rem;
+    }
+
+    @include small {
+        padding: 1rem 1rem;
+    }
+}
+
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  
+    &:hover {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+  
+    + .btn {
+      margin-left: 1rem;
+    }
+  
+    @include large {
+      padding: 0.75rem 1rem;
+    }
+  
+    @include medium {
+      padding: 0.6rem 0.9rem;
+      font-size: 0.9rem;
+    }
+  
+    @include small {
+      display: block;
+      width: 100%;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.9rem;
+  
+      + .btn {
+        margin-top: 0.5rem;
+        margin-left: 0;
+      }
+    }
+  }
+
+.site-footer {
+    text-align: right;
 }
 
 .btn-download:hover {
@@ -43,6 +113,94 @@ body {
 .btn-download {
     background-color: rgba(45, 255, 105, 0.08);
     border-color: rgba(45, 255, 105, 0.2);
+}
+
+.inline-download {
+    box-shadow: 0 0 4px 0 inset rgb(126, 126, 126);
+    background-color: rgb(246, 246, 246);
+    padding: 0.1em 0.4em;
+    color: rgb(25, 97, 37);
+    border-radius: 3px;
+}
+
+.nav-top {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 0rem;
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: $nav-bg-color;
+    box-shadow: 0px 0px 8px rgba($color: #000000, $alpha: 1.0);
+}
+
+.nav-top a {
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.nav-top-center {
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nav-top ul {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.nav-top ul li {
+    margin: 0rem 1rem;
+    position: relative;
+    line-height: 2;
+    height: 100%;
+    width: max-content;
+
+    @include large {
+        padding: 0.5rem 1rem;
+    }
+
+    @include medium {
+        padding: 0.5rem 1rem;
+    }
+
+    @include small {
+        padding: 0.5rem 0rem;
+    }
+}
+
+.nav-top ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: max-content;
+    right: 0;
+    text-align: left;
+    padding: 0rem;
+    background-color: $nav-bg-color;
+    box-shadow: 0px 0px 8px rgba($color: #000000, $alpha: 1.0);
+    height: unset;
+}
+
+.nav-top ul ul li {
+    margin: 0.1rem;
+    padding: 0rem 0.5rem;
+    width: max-content;
+    text-align: left;
+}
+
+.nav-top li.nav-sub-open ul {
+    display: block;
 }
 
 //header {
