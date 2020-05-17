@@ -27,7 +27,8 @@ which emulsion
 ```
 
 <script>
-    $.getJSON("https://api.github.com/repos/ArturKovacs/emulsion/releases/latest").done(function(release) {
+    $.getJSON("https://api.github.com/repos/ArturKovacs/emulsion/releases/latest?callback=?").done(function(response) {
+        var release = response.data;
         var winAsset = null;
         for (let i = 0; i < release.assets.length; i++) {
             var asset = release.assets[i];
