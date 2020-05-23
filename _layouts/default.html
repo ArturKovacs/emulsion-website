@@ -24,14 +24,26 @@
         <header class="page-header" role="banner">
             <h1 class="project-name">EMULSION</h1>
             <h2 class="project-tagline">A lightweight and minimalistic image viewer.</h2>
-            <a href="https://github.com/ArturKovacs/emulsion/releases/latest" class="btn btn-download" id="installer-link">Download for Windows</a>
+            <a href="download.html" class="btn btn-download" id="curr-platform-installer">Download Options</a>
             <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
             <script>
-                $.getJSON("https://api.github.com/repos/ArturKovacs/emulsion/releases/latest").done(function(release) {
-                    var asset = release.assets[0];
-                    var link = document.getElementById("installer-link");
-                    link.href = asset.browser_download_url;
-                });
+                {% include misc.js %}
+                $.getJSON("https://api.github.com/repos/ArturKovacs/emulsion/releases/latest?callback=?")
+                    .done(function(response) {
+                        var release = response.data;
+                        var installers = getInstallerLinks(release);
+                        var onWindows = navigator.platform.startsWith("Win");
+                        var onMac = navigator.platform.startsWith("Mac");
+                        var link = document.getElementById("curr-platform-installer");
+                        if (onWindows) {
+                            link.innerText = "Download for Windows";
+                            link.href = installers.winUrl;
+                        } else if (onMac) {
+                            link.innerText = "Download for macOS";
+                            link.href = installers.macUrl;
+                        } // Otherwise just leave it at its default.
+                    }
+                );
             </script>
         </header>
         <nav class="nav-top">

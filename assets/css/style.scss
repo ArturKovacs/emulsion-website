@@ -56,63 +56,85 @@ body {
     }
 }
 
+.project-tagline {
+    font-weight: normal;
+    opacity: 0.7;
+  
+    @include large {
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+  
+    @include medium {
+        font-size: 1.15rem;
+        margin-bottom: 1.75rem;
+    }
+  
+    @include small {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
 
 .btn {
     display: inline-block;
+    margin-top: 0.25rem;
     margin-bottom: 0.25rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
     background-color: rgba(255, 255, 255, 0.08);
     border-color: rgba(255, 255, 255, 0.2);
     border-style: solid;
     border-width: 1px;
     border-radius: 0.3rem;
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-  
+    transition: color 0.0s, background-color 0.0s, border-color 0.0s;
+
     &:hover {
-      color: rgba(255, 255, 255, 0.8);
-      text-decoration: none;
-      background-color: rgba(255, 255, 255, 0.2);
-      border-color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
     }
-  
+
     + .btn {
-      margin-left: 1rem;
+        margin-left: 1rem;
     }
-  
+
     @include large {
-      padding: 0.75rem 1rem;
+        padding: 0.75rem 1rem;
     }
-  
+
     @include medium {
-      padding: 0.6rem 0.9rem;
-      font-size: 0.9rem;
+        padding: 0.6rem 0.9rem;
+        font-size: 0.9rem;
     }
-  
+
     @include small {
-      display: block;
-      width: 100%;
-      padding: 0.25rem 0.5rem;
-      font-size: 0.9rem;
-  
-      + .btn {
+        display: block;
+        width: 100%;
+        padding: 0.25rem 0.5rem;
+        font-size: 0.9rem;
+
+        + .btn {
         margin-top: 0.5rem;
         margin-left: 0;
-      }
+        }
     }
-  }
+}
 
 .site-footer {
     text-align: right;
 }
 
 .btn-download:hover {
-    background-color: rgba(45, 255, 105, 0.2);
-    border-color: rgba(45, 255, 105, 0.3);
+    // background-color: rgba(45, 255, 105, 0.2);
+    // border-color: rgba(45, 255, 105, 0.3);
+    background-color: hsl(137, 35%, 25%);
+    border-color: hsl(137, 35%, 45%);
 }
 
 .btn-download {
-    background-color: rgba(45, 255, 105, 0.08);
-    border-color: rgba(45, 255, 105, 0.2);
+    background-color: hsl(137, 30%, 20%);
+    border-color: hsl(137, 30%, 35%);
 }
 
 .inline-download {
@@ -121,6 +143,47 @@ body {
     padding: 0.1em 0.4em;
     color: rgb(25, 97, 37);
     border-radius: 3px;
+}
+
+.all-downloads-group-parent {
+    position: relative;
+    height: 5em;
+}
+
+.all-downloads-group {
+    position: relative;
+    // width: 100vw;
+    // margin-left: -50vw;
+    // left: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    // background-color: $header-bg-color;
+}
+
+.download-block {
+    display: inline-block;
+    width: 120px;
+    margin: 0 2em;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-size: contain !important;
+    margin: 0.5em auto;
+}
+
+.logo.windows {
+    background: url('../images/Windows_logo_–_2012_(dark_blue).svg') center center no-repeat;
+}
+
+.logo.macos {
+    background: url('../images/Apple_logo_black.svg') center center no-repeat;
+}
+
+.stretch {
+    width: 100%;
 }
 
 .nav-top {
@@ -135,6 +198,7 @@ body {
     width: 100%;
     background-color: $nav-bg-color;
     box-shadow: 0px 0px 8px rgba($color: #000000, $alpha: 1.0);
+    z-index: 5;
 }
 
 .nav-top a {
