@@ -4,9 +4,9 @@ title: ""
 
 # Configuration Overview
 
-The `cfg.toml` file allows for some modifications in the behavour of emulsion. 
+The `cfg.toml` file allows for some modifications in the behaviour of emulsion. 
 
-Depending on the platform this file can be created at the following location.
+Depending on the platform, this file can be created at one of the following locations.
 
 - Windows: `%appdata%\emulsion\config\cfg.toml`
 - MacOS: `$HOME/Library/Preferences/emulsion/cfg.toml`

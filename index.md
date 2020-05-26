@@ -46,7 +46,7 @@ Get the [Windows installer](#installer-link) right now or clone the [repository]
 
 ### The Name
 
-The word _emulsion_ in general refers to a substance in which two or more non-soluble liquids are mixed together so that the molecules are finely dispersed. For example mayonnaise is an emulsion of oil, egg yolk, and some acidic ingredient like vinegar or lemon juice.
+The word _emulsion_ in general refers to a substance in which two or more liquids, that can't form a stable solution, are mixed together so that droplets are finely dispersed. For example mayonnaise is an emulsion of oil, egg yolk, and some acidic ingredient like vinegar or lemon juice.
 
 Here emulsion refers to _photographic emulsion_ which is a substance that among other things can be used to develop images from.
 
