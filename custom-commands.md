@@ -50,6 +50,8 @@ As it was previously stated, any number of `[[commands]]` can be specified.
 input = ["alt+k"]
 program = "git"
 
+# Every command definition must start with [[commands]], even
+# if the previous section was also a [[commands]] section.
 [[commands]]
 input = ["alt+l"]
 program = "git"
