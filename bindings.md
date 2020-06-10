@@ -15,7 +15,7 @@ This file may contain a `[bindings]` section. If there is no such section, the d
 img_next = ["d", "right", "pagedown"]
 img_prev = ["a", "left", "pageup"]
 img_orig = ["q", "1"]
-img_fit_min = ["e"]
+img_fit_best = ["e"]
 img_fit = ["f"]
 img_del = ["delete"]
 pan = ["space"]
