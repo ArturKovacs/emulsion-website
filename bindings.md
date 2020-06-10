@@ -14,14 +14,15 @@ This file may contain a `[bindings]` section. If there is no such section, the d
 [bindings]
 img_next = ["d", "right", "pagedown"]
 img_prev = ["a", "left", "pageup"]
-img_orig = ["q"]
+img_orig = ["q", "1"]
+img_fit_min = ["e"]
 img_fit = ["f"]
 img_del = ["delete"]
 pan = ["space"]
 play_anim = ["alt+a", "alt+v"]
 play_present = ["p"]
 play_present_rnd = ["alt+p"]
-toggle_fullscreen = ["F11"]
+toggle_fullscreen = ["F11", "return"]
 escape = ["Escape"]
 ```
 

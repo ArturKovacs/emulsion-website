@@ -61,21 +61,22 @@ JPG, JPEG, PNG, BMP, GIF, TGA, WEBP, TIF, TIFF, ICO, HDR, PBM, PAM, PPM, and PGM
 
 Usage:
 
-| Command                               | Input                        |
-| ------------------------------------- | ---------------------------- |
-| Quit Emulsion                         | Esc                          |
-| Previous Image                        | A or Left Arrow              |
-| Next Image                            | D or Right Arrow             |
-| Zoom In                               | Mouse Wheel Up               |
-| Zoom Out                              | Mouse Wheel Down             |
-| Fit Image To Window                   | F                            |
-| Show At Original Scale                | Q                            |
-| Toggle Animation Playback             | Alt+A or Alt+V               |
-| Toggle Presentation Playback          | P                            |
-| Toggle Shuffled Presentation Playback | Alt+P                        |
-| Pan Camera                            | Right Mouse Button or Space  |
-| Toggle Fullscreen Mode                | Double Click                 |
-| Move Image to the Trash               | Delete                       |
+| Command                                      | Input                        |
+| -------------------------------------------- | ---------------------------- |
+| Quit Emulsion                                | Esc                          |
+| Previous Image                               | A or Left Arrow              |
+| Next Image                                   | D or Right Arrow             |
+| Zoom In                                      | Mouse Wheel Up               |
+| Zoom Out                                     | Mouse Wheel Down             |
+| Show At Original Scale                       | Q or 1                       |
+| Best Fit - Use Original Size if Fits         | E                            |
+| Fit to Borders                               | F                            |
+| Toggle Animation Playback                    | Alt+A or Alt+V               |
+| Toggle Presentation Playback                 | P                            |
+| Toggle Shuffled Presentation Playback        | Alt+P                        |
+| Pan Camera                                   | Right Mouse Button or Space  |
+| Toggle Fullscreen Mode                       | Double Click or F11 or Enter |
+| Move Image to the Trash                      | Delete                       |
 
 
 ### Contribution is Welcome
