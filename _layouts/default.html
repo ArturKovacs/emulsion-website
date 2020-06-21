@@ -37,7 +37,8 @@
                         var installers = getInstallerLinks(release);
                         var onWindows = navigator.platform.startsWith("Win");
                         var onMac = navigator.platform.startsWith("Mac");
-                        var onLinux = navigator.platform.startsWith("Linux");
+                        var onLinux = navigator.platform.startsWith("Linux") &&
+                            navigator.platform.includes("x86_64");
                         var link = document.getElementById("curr-platform-installer");
                         if (onWindows) {
                             link.innerText = "Download for Windows";
