@@ -37,6 +37,7 @@
                         var installers = getInstallerLinks(release);
                         var onWindows = navigator.platform.startsWith("Win");
                         var onMac = navigator.platform.startsWith("Mac");
+                        var onLinux = navigator.platform.startsWith("Linux");
                         var link = document.getElementById("curr-platform-installer");
                         if (onWindows) {
                             link.innerText = "Download for Windows";
@@ -44,6 +45,9 @@
                         } else if (onMac) {
                             link.innerText = "Download for macOS";
                             link.href = installers.macUrl;
+                        } else if (onLinux) {
+                            link.innerText = "Download .deb";
+                            link.href = installers.debUrl;
                         } // Otherwise just leave it at its default.
                     }
                 );
