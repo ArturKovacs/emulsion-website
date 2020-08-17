@@ -74,7 +74,7 @@ Usage:
 | Toggle Animation Playback                    | Alt+A or Alt+V               |
 | Toggle Presentation Playback                 | P                            |
 | Toggle Shuffled Presentation Playback        | Alt+P                        |
-| Pan Camera                                   | Right Mouse Button or Space  |
+| Pan Camera                                   | Left Mouse Button or Space   |
 | Toggle Fullscreen Mode                       | Double Click or F11 or Enter |
 | Move Image to the Trash                      | Delete                       |
 
