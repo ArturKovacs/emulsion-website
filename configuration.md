@@ -12,7 +12,7 @@ Depending on the platform, this file can be created at one of the following loca
 - MacOS: `$HOME/Library/Preferences/emulsion/cfg.toml`
 - Linux: `$XDG_CONFIG_HOME/emulsion/cfg.toml` or `$HOME/.config/emulsion/cfg.toml`
 
-The contenst of the `cfg.toml` file may for example be the following:
+The contents of the `cfg.toml` file may for example be the following:
 
 ```
 [bindings]
@@ -27,7 +27,7 @@ displayed_folders = 1
 show_program_name = false
 ```
 
-All sections in this file are optional, meaning that if for example only `[updates]` is specified then every other section will be using its default values.
+All sections in this file are optional, meaning that if for example only `[updates]` is specified then every other section will be using their default values.
 
 The `[updates]` section can contain only one field, namely `check_updates` which may be set to either `true` or `false`.
 Emulsion fetches the latest version number and provides a notification only if `check_updates` is set to `true`.
