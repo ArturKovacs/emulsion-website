@@ -10,7 +10,7 @@ that out from the comparison tables.
 
 ## qView
 
-https://interversehq.com/qview/
+[Website](https://interversehq.com/qview/)
 
 | qView 4.0                                       | Emulsion 7.2                                   |
 |-------------------------------------------------|------------------------------------------------|
@@ -21,7 +21,7 @@ https://interversehq.com/qview/
 
 ## Image Glass
 
-https://imageglass.org/
+[Website](https://imageglass.org/)
 
 Image Glass is a feature-rich image viewer. It can do so many things which Emulsion cannot, that it
 would be pointless to try to list all those things. All-in-all, if you are using Windows, you'll
@@ -36,9 +36,9 @@ most probably find Image Glass more appropriate to use.
 
 ## feh
 
-https://feh.finalrewind.org/
+[Website](https://feh.finalrewind.org/)
 
-| feh 2.23.2                                       | Emulsion                                      |
+| feh 2.23.2                                       | Emulsion 7.2                                  |
 |--------------------------------------------------|-----------------------------------------------|
 | Can rotate and flip the image                    | Can't do either                               |
 | Shows transparent pattern in the entire window   | Only shows checkerboard within the image      |
@@ -46,9 +46,9 @@ https://feh.finalrewind.org/
 
 ## sxiv
 
-https://github.com/muennich/sxiv
+[Website](https://github.com/muennich/sxiv)
 
-| sxiv 26                                          | Emulsion                                      |
+| sxiv 26                                          | Emulsion 7.2                                  |
 | -------------------------------------------------|-----------------------------------------------|
 | Can show a preview of all images in a folder     | Cannot show multiple images at a time         |
 | Panning is based on cursor position              | Panning is based on cursor movement           |
@@ -56,9 +56,9 @@ https://github.com/muennich/sxiv
 
 ## Eye Of Gnome
 
-https://wiki.gnome.org/Apps/EyeOfGnome
+[Website](https://wiki.gnome.org/Apps/EyeOfGnome)
 
-| Eye Of Gnome                                     | Emulsion                                      |
+| Eye Of Gnome                                     | Emulsion 7.2                                  |
 |--------------------------------------------------|-----------------------------------------------|
 | Can rotate the image                             | Cannot do this                                |
 | Displays EXIF metadata on the UI                 | Cannot do this                                |
