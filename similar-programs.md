@@ -38,11 +38,11 @@ image area as in Emulsion. It also has a ton of configuration and command line o
 [Website](https://github.com/muennich/sxiv)
 
 For Linux only. Can display a preview of all images within a folder and has significantly different
-defaults input behaviour.
+default input behaviour.
 
 ## Eye Of Gnome
 
 [Website](https://wiki.gnome.org/Apps/EyeOfGnome)
 
-For Linux only. Can rotate image, display their EXIF metadata, can set an image as the wallpaper,
+For Linux only. Can rotate images, display their EXIF metadata, can set an image as the wallpaper,
 and has the option to open images with another program.
