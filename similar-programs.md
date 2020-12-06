@@ -5,63 +5,44 @@ title: ""
 # Similar Programs
 
 To help you find the software that you need, here's a comparison with other, similar image viewers.
-Neither of the following software can play an animation from an image file sequence so I left
-that out from the comparison tables.
+Neither of the following software can play an animation from an image file sequence so I left that
+out from the comparisons.
 
-## qView
+## qView 4.0
 
 [Website](https://interversehq.com/qview/)
 
-| qView 4.0                                       | Emulsion 7.2                                   |
-|-------------------------------------------------|------------------------------------------------|
-| Has a graphical configuration                   | User needs to edit the `cfg.toml` file         |
-| Background color can be chosen                  | Background is either dark or light             |
-| Transparent parts blend into the background     | Transparency is show with checkerboard pattern |
-| Resizing the window resets zoom                 | Resizing preserves zoom mode (fit/fixed size)  |
+Has a graphical configuration window with a bit more customization options. Has a somewhat different
+behaviour with image scaling and window resizing. Transparency blends into the background unlike
+in Emulsion where a checkerbboard pattern is used.
 
-## Image Glass
+## Image Glass 7.6.4
 
 [Website](https://imageglass.org/)
 
-Image Glass is a feature-rich image viewer. It can do so many things which Emulsion cannot, that it
-would be pointless to try to list all those things. All-in-all, if you are using Windows, you'll
-most probably find Image Glass more appropriate to use.
+For Windows only. It has a lot more features than Emulsion but can be configured to show no UI
+elements other than the image. Unlike Emulsion it cannot open files which lack a file-name
+extension. All-in-all, if you are using Windows, you'll probably find Image Glass more appropriate
+to use.
 
-| Image Glass 7.6.4.30                            | Emulsion 7.2                                   |
-|-------------------------------------------------|------------------------------------------------|
-| Feature-rich (see note above)                   | Limited feature set                            |
-| Can only open files with known extension        | Can open files without a file-name extension   |
-| Background color can be chosen                  | Background is either dark or light             |
-| Only for Windows                                | For Windows and Linux (partial macOS support)  |
-
-## feh
+## feh 2.23
 
 [Website](https://feh.finalrewind.org/)
 
-| feh 2.23.2                                       | Emulsion 7.2                                  |
-|--------------------------------------------------|-----------------------------------------------|
-| Can rotate and flip the image                    | Can't do either                               |
-| Shows transparent pattern in the entire window   | Only shows checkerboard within the image      |
-| Only for Linux                                   | For Windows and Linux (partial macOS support) |
+For Linux only. It can do a number of things which Emulsaion cannot, notably it can rotate and flip
+images. However the transparency pattern covers the entire window (by default) instead of only the
+image area as in Emulsion. It also has a ton of configuration and command line options.
 
-## sxiv
+## sxiv 26
 
 [Website](https://github.com/muennich/sxiv)
 
-| sxiv 26                                          | Emulsion 7.2                                  |
-| -------------------------------------------------|-----------------------------------------------|
-| Can show a preview of all images in a folder     | Cannot show multiple images at a time         |
-| Panning is based on cursor position              | Panning is based on cursor movement           |
-| Only for Linux                                   | For Windows and Linux (partial macOS support) |
+For Linux only. Can display a preview of all images within a folder and has significantly different
+defaults input behaviour.
 
 ## Eye Of Gnome
 
 [Website](https://wiki.gnome.org/Apps/EyeOfGnome)
 
-| Eye Of Gnome                                     | Emulsion 7.2                                  |
-|--------------------------------------------------|-----------------------------------------------|
-| Can rotate the image                             | Cannot do this                                |
-| Displays EXIF metadata on the UI                 | Cannot do this                                |
-| Can set the image as the wallpaper               | Cannot do this                                |
-| Has option to "open image with an other program" | This can only be achieved with custom commands|
-| Only for Linux                                   | For Windows and Linux (partial macOS support) |
+For Linux only. Can rotate image, display their EXIF metadata, can set an image as the wallpaper,
+and has the option to open images with another program.
