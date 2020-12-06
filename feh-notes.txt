@@ -1,0 +1,21 @@
+
+Feh 2.23.2                                         | Emulsion
+---------------------------------------------------|---------------------------------------------
+Can rotate and flip the image                      | Can't do either
+Shows transparent pattern in the entire window     | Only shows checkerboard within the image
+Linux only
+
+
+Sxiv 26                                            | Emulsion
+---------------------------------------------------|---------------------------------------------
+Panning is based on cursor position                | Panning is based on cursor movement
+Linux only
+
+
+Eye Of Gnome                                       | Emulsion
+---------------------------------------------------|---------------------------------------------
+Can rotate the image                               | Cannot do this
+Displays EXIF metadata on the UI                   | Cannot do this
+Can set the image as the wallpaper                 | Cannot do this
+Has option to "open image with an other program"   | This can only be achieved with custom commands
+Linux only
