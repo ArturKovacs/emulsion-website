@@ -23,6 +23,8 @@ play_anim = ["alt+a", "alt+v"]
 play_present = ["p"]
 play_present_rnd = ["alt+p"]
 toggle_fullscreen = ["F11", "return"]
+toggle_antialias = ["s"]
+automatic_antialias = ["alt+s"]
 escape = ["Escape"]
 ```
 
