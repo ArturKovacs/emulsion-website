@@ -1,6 +1,8 @@
 elements:
   - title: Overview
     url: /index.html
+  - title: Similar Programs
+    url: /similar-programs.html
   - title: Download
     url: /download.html
   - title: Configuration
