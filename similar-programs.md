@@ -20,7 +20,7 @@ in Emulsion where a checkerbboard pattern is used.
 
 [Website](https://imageglass.org/)
 
-For Windows only. It has a lot more features than Emulsion but can be configured to show no UI
+For Windows only. It has a lot more features than Emulsion and can be configured to show no UI
 elements other than the image. Unlike Emulsion it cannot open files which lack a file-name
 extension. All-in-all, if you are using Windows, you'll probably find Image Glass more appropriate
 to use.
@@ -40,7 +40,7 @@ image area as in Emulsion. It also has a ton of configuration and command line o
 For Linux only. Can display a preview of all images within a folder and has significantly different
 default input behaviour.
 
-## Eye Of Gnome
+## Eye Of Gnome 3.28
 
 [Website](https://wiki.gnome.org/Apps/EyeOfGnome)
 
