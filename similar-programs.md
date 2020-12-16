@@ -29,7 +29,7 @@ to use.
 
 [Website](https://feh.finalrewind.org/)
 
-For Linux only. It can do a number of things which Emulsaion cannot, notably it can rotate and flip
+For Linux only. It can do a number of things which Emulsion cannot, notably it can rotate and flip
 images. However the transparency pattern covers the entire window (by default) instead of only the
 image area as in Emulsion. It also has a ton of configuration and command line options.
 
