@@ -9,7 +9,7 @@ The `cfg.toml` file allows for some modifications in the behaviour of emulsion.
 Depending on the platform, this file can be created at one of the following locations. On Linux, one may run `emulsion -h` to find out the configuration path.
 
 - Windows: `%appdata%\emulsion\config\cfg.toml`
-- MacOS: `$HOME/Library/Preferences/emulsion/cfg.toml`
+- MacOS: `$HOME/Library/Application Support/Emulsion/cfg.toml`
 - Linux: `$XDG_CONFIG_HOME/emulsion/cfg.toml` or `$HOME/.config/emulsion/cfg.toml`
 
 The contents of the `cfg.toml` file may for example be the following:
