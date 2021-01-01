@@ -12,12 +12,15 @@ This file may contain a `[bindings]` section. If there is no such section, the d
 
 ```
 [bindings]
+
 img_next = ["d", "right", "pagedown"]
 img_prev = ["a", "left", "pageup"]
 img_orig = ["q", "1"]
 img_fit_best = ["e"]
 img_fit = ["f"]
 img_del = ["delete"]
+img_copy = ["CmdCtrl+C"]
+
 pan = ["space"]
 play_anim = ["alt+a", "alt+v"]
 play_present = ["p"]
@@ -26,6 +29,15 @@ toggle_fullscreen = ["F11", "return"]
 toggle_antialias = ["s"]
 automatic_antialias = ["alt+s"]
 escape = ["Escape"]
+
+# Zoom and pan the camera using keyboard input
+# (Not bound by default)
+zoom_in = []
+zoom_out = []
+pan_left = []
+pan_right = []
+pan_up = []
+pan_down = []
 ```
 
 Note that all items in this section are optional so it's fully valid to only specify one of the actions. In this case all the rest will use the default bindings. For example
@@ -70,9 +82,10 @@ The following modifiers are valid
 
 Everything typeable is supported including unicode characters like `ø`, `ű`, and `💜`.
 
-There are two special cases for typeable characters:
+There are a few special cases for typeable characters:
 - `' '` must be specified as `space`
 - `'+'` must be specified as `add`.
+- `'-'` must be specified as `subtract`.
 
 The following list contains all supported non-typeable keys' names.
 
