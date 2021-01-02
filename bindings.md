@@ -19,7 +19,7 @@ img_orig = ["q", "1"]
 img_fit_best = ["e"]
 img_fit = ["f"]
 img_del = ["delete"]
-img_copy = ["CmdCtrl+C"]
+img_copy = ["cmdctrl+C"]
 
 pan = ["space"]
 play_anim = ["alt+a", "alt+v"]
@@ -74,9 +74,10 @@ Modifiers may be specified separated by '+' characters. For example `"ctrl+x"` o
 
 The following modifiers are valid
 
-- `alt`: The alt key
-- `ctrl`: The control key
-- `logo`: The Windows key (Windows) or the Command key (MacOS)
+- `alt`: The Alt key
+- `ctrl`: The Control key
+- `logo`: The Command key on MacOS; the Windows key on Windows
+- `cmdctrl`: The Command key on MacOS; the Control key on Windows
 
 ## Keys
 
