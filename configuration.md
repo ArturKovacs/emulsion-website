@@ -32,20 +32,20 @@ show_bottom_bar = false
 
 All sections in this file are optional, meaning that if for example only `[updates]` is specified then every other section will be using their default values.
 
-## The `[updates]` section
+## Section `[updates]`
 
 | Field name       | Type            | Default | Description                               |
 |------------------|-----------------|---------|-------------------------------------------|
 | check_updates    |`true`, `false` | `true`  | Emulsion fetches the latest version number and provides a notification only if this is `true`. (Note that this field has no effect when emulsion is compiled without networking. See more about this at the GitHub page.) |
 
-## The `[title]` section
+## Section `[title]`
 
 | Field name                 | Type            | Default   | Description                               |
 |----------------------------|-----------------|-----------|-------------------------------------------|
 | displayed_folders          |unsigned integer | `0`       | Specifies the number of folders from the path that should be visible in the title. |
 | show_program_name          |`true`, `false`| `true`    | If false, the `: EMULSION` text is not displayed in the title. |
 
-## The `[window]` section
+## Section `[window]`
 
 | Field name           | Type            | Default | Description                               |
 |----------------------|-----------------|---------|-------------------------------------------|
