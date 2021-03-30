@@ -36,7 +36,7 @@ Automatically switches from smooth display to real pixels at a scale threshold.
 
 ## Takes Seconds to Get It Going
 
-Get the [Windows installer](#installer-link) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
+Get the [installer](#top) right now or clone the [repository](https://github.com/ArturKovacs/emulsion) and let `cargo` do its magic.
 
 <p align="center">
   <img src="gif/install.gif">
@@ -57,7 +57,7 @@ This description suits the program just as well. Emulsion is a thin layer betwee
 ### Details
 
 Supported extensions are:<br/>
-JPG, JPEG, PNG, BMP, GIF, TGA, AVIF, WEBP, TIF, TIFF, ICO, HDR, PBM, PAM, PPM, and PGM
+JPG, JPEG, PNG, BMP, GIF, TGA, AVIF, TIF, TIFF, ICO, HDR, PBM, PAM, PPM, and PGM
 
 Usage:
 
