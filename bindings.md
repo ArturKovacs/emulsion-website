@@ -76,8 +76,8 @@ The following modifiers are valid
 
 - `alt`: The Alt key
 - `ctrl`: The Control key
-- `logo`: The Command key on MacOS; the Windows key on Windows
-- `cmdctrl`: The Command key on MacOS; the Control key on Windows
+- `logo`: The Command key on macOS; the Windows key on Windows
+- `cmdctrl`: The Command key on macOS; the Control key elsewhere
 
 ## Keys
 

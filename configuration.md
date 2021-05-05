@@ -50,6 +50,7 @@ All sections in this file are optional, meaning that if for example only `[updat
 | Field name           | Type            | Default | Description                               |
 |----------------------|-----------------|---------|-------------------------------------------|
 | start_fullscreen     |`true`, `false`| `false` | If `true`, Emulsion enters full-screen mode at startup. |
+| start_maximized      |`true`, `false`| `false` | If `true`, Emulsion opens with a maximized window. |
 | show_bottom_bar      |`true`, `false`| `true`  | If `false`, the area with buttons at the bottom isn't visible. |
 | use_last_window_area |`true`, `false`| `true`  | If `false`, Emulsion uses `win_w`, `win_h`, `win_x`, and `win_y` to determine the window position and size at startup. |
 | win_w                | unsigned integer | N/A     | The initial width of the window.          |
