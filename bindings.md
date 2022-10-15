@@ -38,6 +38,14 @@ pan_left = []
 pan_right = []
 pan_up = []
 pan_down = []
+
+# While the button is held down for `pan_vert`,
+# the image will only move *vertically* as the 
+# mouse is moved.
+# `pan_hor` has a similar behaviour, but in the
+# *horizontal* direction
+pan_vert = [] 
+pan_hor = [] 
 ```
 
 Note that all items in this section are optional so it's fully valid to only specify one of the actions. In this case all the rest will use the default bindings. For example
